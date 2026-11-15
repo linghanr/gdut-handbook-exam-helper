@@ -1,0 +1,11 @@
+{
+  "_comment": "可选配置。把本文件复制为 config.json 后生效；所有字段都有内置默认值，通常无需修改。",
+  "debugPort": 9222,
+  "debugHost": "127.0.0.1",
+  "examUrl": "https://exam.yooc.me/",
+  "examUrlMatch": "exam.yooc.me",
+  "handbookPage": "https://oas.gdut.edu.cn/seeyon/newsData.do?method=newsView&newsId=4414529617552949729",
+  "chromePath": "",
+  "chromeUserDataDir": "~/.gdut-exam-chrome",
+  "batchSize": 25
+}

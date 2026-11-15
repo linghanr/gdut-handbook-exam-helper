@@ -1,0 +1,30 @@
+# 手册原件（版权属于学校，不入库）
+manuals/
+*.pdf
+
+# 手册纯文本（由 fetch_handbooks.js 生成）
+data/handbook/
+
+# 试卷原始数据（含 examuserId、考试页面 URL 等运行时信息）
+data/paper.json
+
+# 运行时产物
+data/verify_report.json
+data/exam_state.json
+data/last_state.json
+data/questions.txt.tmp
+
+# 本地配置
+config.json
+
+# 依赖与编辑器
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

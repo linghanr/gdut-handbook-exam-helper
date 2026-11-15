@@ -1,0 +1,33 @@
+{
+  "name": "gdut-handbook-exam-helper",
+  "version": "1.0.0",
+  "description": "把《广东工业大学学生手册》与《2026 研究生手册》的原文条款变成可检索、可回查、可自动勾选的题库工具",
+  "keywords": [
+    "gdut",
+    "广东工业大学",
+    "学生手册",
+    "题库",
+    "cdp",
+    "chrome-devtools"
+  ],
+  "license": "MIT",
+  "author": "gdut-handbook-exam-helper contributors",
+  "private": false,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/start_chrome.js",
+    "manuals": "node src/fetch_handbooks.js",
+    "manuals:list": "node src/fetch_handbooks.js --list",
+    "fetch": "node src/fetch_paper.js",
+    "questions": "node src/dump_questions.js",
+    "answers": "node src/build_answers.js",
+    "exam": "node src/run_exam.js",
+    "verify": "node src/verify_final.js",
+    "last": "node src/goto_last.js",
+    "search": "node src/find_in_handbook.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
