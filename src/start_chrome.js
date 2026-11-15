@@ -3,9 +3,10 @@
  * 启动带调试端口的 Chrome（独立用户目录，不影响日常浏览器），并打开考试页面。
  *
  * 用法: node src/start_chrome.js [url] [--port 9222] [--check]
- * 例:   node src/start_chrome.js https://exam.yooc.me/group/10818427/exams
+ * 例:   node src/start_chrome.js https://exam.yooc.me/
  *       node src/start_chrome.js --check   # 仅检测 Chrome 路径，不启动
- */const { spawn } = require('child_process');
+ */
+const { spawn } = require('child_process');
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
